@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TiaoZhan:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TiaoZhan_jar</output-path>
+    <root id="archive" name="TiaoZhan.jar">
+      <element id="module-output" name="TiaoZhan" />
+    </root>
+  </artifact>
+</component>

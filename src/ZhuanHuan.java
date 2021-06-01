@@ -1,17 +1,14 @@
-import com.sun.image.codec.jpeg.JPEGCodec;
-import com.sun.image.codec.jpeg.JPEGImageEncoder;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
 
 public class ZhuanHuan {
-    /***
+    /***作者 张钰鹭
      * 功能 :调整图片大小 开发：张钰鹭 2021-2-28
      * @param srcImgPath 原图片路径
      * @param distImgPath  转换大小后图片路径
@@ -36,7 +33,7 @@ public class ZhuanHuan {
 
 
 
-    /**
+    /** 作者 张钰鹭
      *icon 水印图片路径（如：F:/images/icon.png）
      *source 没有加水印的图片路径（如：F:/images/6.jpg）
      *output 加水印后的图片路径（如：F:/images/）

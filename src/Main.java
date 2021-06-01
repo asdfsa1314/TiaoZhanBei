@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args){
         init();
     }
-    /**
+    /** 作者：张钰鹭
      * 具体框架的制作
      */
     public static void init(){
@@ -19,7 +19,7 @@ public class Main {
             @Override
             public void windowClosing(WindowEvent e) { super.windowClosing(e);System.exit(0); }});
 
-        JTextField tf1 = new JTextField("输入图片的绝对路径");tf1.setBounds(75, 52, 150, 46);
+        JTextField tf1 = new JTextField("C:\\Users\\asdfsa\\Desktop\\周美君.JPG");tf1.setBounds(75, 52, 150, 46);
         JTextField tf2 = new JTextField("输入图片宽度");tf2.setBounds(75, 100, 75, 35);
         JTextField tf3 = new JTextField("输入图片高度");tf3.setBounds(75, 142, 75, 35);
         JTextField tf4 = new JTextField("输入图片的输出路径");tf4.setBounds(75, 192, 150, 35);
